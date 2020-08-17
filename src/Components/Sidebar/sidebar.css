@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap");
+@import "card.css";
+
+html {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.pane-body {
+  padding: 1rem;
+}
+
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#sidebar #logo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sidebar #logo img {
+  width: 100px;
+  height: 100px;
+}
+
+#sidebar #links ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#sidebar #links ul li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#sidebar #links ul li:hover {
+  cursor: pointer;
+}
+
+#sidebar #links ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#sidebar #links ul li a #icon-sidebar {
+  flex: 1;
+}
+
+#sidebar #links ul li a #text-sidebar {
+  flex: 2;
+  text-align: left;
+}
+
+#sidebar #links ul li a img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 2px 2px 2px #fff;
+}
+
+#sidebar #user-informations {
+  flex: 1;
+}
+
+#sidebar #user-informations {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#sidebar #user-informations #profile-image img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+#sidebar #user-informations #operator-name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#sidebar #user-informations #out-icon {
+  font-size: 20px;
+  color: #000;
+}
+
+#sidebar #user-informations #out-icon a {
+  color: #000;
+}

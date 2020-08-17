@@ -1,0 +1,32 @@
+.card {
+  margin: 2%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px gainsboro;
+}
+
+.card-header {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-header .btn {
+  margin-left: 5px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.card-body {
+  border-top: 1px solid gainsboro;
+}
+
+.card-body-without-border-top {
+  padding: 2%;
+}
+
+.card-footer {
+  padding: 2%;
+}
