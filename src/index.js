@@ -5,8 +5,8 @@ import App from "./App";
 /* import { online } from "../src/Services/Network";
 import iconOffline from "./Images/offline.png"; */
 
-import "./Styles/Global.css";
 import "./Styles/photon.min.css";
+import "./Styles/Global.css";
 
 /* const ShowApp = () => {
   if (online()) {

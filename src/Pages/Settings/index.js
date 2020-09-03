@@ -51,7 +51,7 @@ const Settings = () => {
                     className="card-body-without-border-top"
                     style={{ textAlign: "center" }}
                   >
-                    <div id="profile-image">
+                    {/* <div id="profile-image">
                       <img
                         src={PROFILE_PIC}
                         alt="profile"
@@ -59,7 +59,7 @@ const Settings = () => {
                         height="100px"
                         style={{ borderRadius: "50%" }}
                       />
-                    </div>
+                    </div> */}
                     <div
                       className="user-informations"
                       style={{ fontWeight: "bolder", fontSize: "16px" }}

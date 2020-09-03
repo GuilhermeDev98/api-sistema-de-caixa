@@ -1,7 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
-body {
-  min-width: "1024px";
-  min-height: "900px";
+body,
+#root {
+  width: 100% !important;
+  height: 100% !important;
+  box-sizing: border-box;
 }
 
 .text-center {

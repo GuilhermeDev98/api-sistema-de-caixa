@@ -12,7 +12,7 @@ const EditProduct = ({ Product, history }) => {
         text: "Produto atualizado com sucesso !",
         icon: "success",
       }).then(() => {
-        history.go();
+        history.go(0);
       });
     } catch (error) {
       swal({

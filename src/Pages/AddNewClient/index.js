@@ -31,13 +31,6 @@ function AddNewClient() {
       <div className="card">
         <div className="card-header">
           <div className="card-title">Novo Cliente</div>
-          <div className="card-options">
-            <Link to="/client">
-              <button className="btn btn-large btn-primary">
-                <span className="icon icon-left-open"></span>
-              </button>
-            </Link>
-          </div>
         </div>
         <div className="card-body">
           <form style={{ textAlign: "left" }}>

@@ -37,7 +37,7 @@ const ClientRow = ({ client }) => {
           swal("Usuário deletado com sucesso !", {
             icon: "success",
           }).then(() => {
-            history.go();
+            history.go(0);
           });
         } catch (error) {
           swal("Erro, contate o programador !", {

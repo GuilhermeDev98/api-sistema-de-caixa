@@ -22,6 +22,21 @@ const ClientRow = ({ product }) => {
     });
   };
 
+  const showProductImage = (product) => {
+    if (product.image) {
+      return (
+        <img
+          src={product.photo}
+          alt={product.name}
+          width="50px"
+          height="30px"
+        />
+      );
+    } else {
+      return "Sem Foto";
+    }
+  };
+
   const HandleDeleteClient = () => {
     swal({
       title: "Tem Certeza?",
@@ -52,14 +67,7 @@ const ClientRow = ({ product }) => {
 
   return (
     <tr>
-      <td className="text-center">
-        <img
-          src={product.photo}
-          alt={product.name}
-          width="50px"
-          height="30px"
-        />
-      </td>
+      <td className="text-center">{showProductImage(product)}</td>
       <td>{product.name}</td>
       <td>{product.price}</td>
       <td>{product.stock}</td>

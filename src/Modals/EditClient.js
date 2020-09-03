@@ -12,7 +12,7 @@ const EditClient = ({ Client, history }) => {
         text: "Usuário atualizado com sucesso !",
         icon: "success",
       }).then(() => {
-        history.go();
+        history.go(0);
       });
     } catch (error) {
       swal({

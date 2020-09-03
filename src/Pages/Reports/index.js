@@ -74,6 +74,7 @@ const Reports = () => {
               display: "flex",
               justifyContent: "space-between",
               alignItems: "center",
+              marginTop: "5px",
             }}
           >
             <div className="form-group" style={{ flex: 2 }}>
@@ -142,7 +143,7 @@ const Reports = () => {
               <input
                 type="number"
                 name="initial_day"
-                value="01"
+                defaultValue="01"
                 className="form-control"
               />
             </div>
@@ -156,7 +157,7 @@ const Reports = () => {
               <input
                 type="text"
                 name="final_day"
-                value="31"
+                defaultValue="31"
                 className="form-control"
               />
             </div>

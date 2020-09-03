@@ -30,7 +30,7 @@ const Sidebar = () => {
   return (
     <div className="pane-sm sidebar" id="sidebar">
       <div id="logo">
-        <Link to="/">
+        <Link to="/newSale">
           <img src={logo} alt="logo" />
         </Link>
       </div>
@@ -79,11 +79,11 @@ const Sidebar = () => {
         </ul>
       </div>
       <div id="user-informations">
-        {
+        {/*         {
           <div id="profile-image">
             <img src={profile} alt="profile" />
           </div>
-        }
+        } */}
         <div id="operator-name">{getSalesmanName()}</div>
         <div id="out-icon">
           <span
